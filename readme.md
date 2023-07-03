@@ -3,5 +3,6 @@ In diese Analyse wollen wir simplen bis state of the art Ansätzen zu Sentiment 
 1. Bag of Words Sentiment Analyse von McDonalds Reviews
 2. Bag of Words Sentiment Analyse von McDonalds Reviews und Imdb Datensätzen
 3. Sentiment Analyse durch Wordembeddings und LSTM Netze 
+    - Zusaetzliche Nutzung von vor-trainierten embeddings ([GloVe](https://www.kaggle.com/datasets/anindya2906/glove6b))
 4. Sentiment Analyse durch Transformers
 5. Wordgenerierung neuer Reviews durch einen Transformer
