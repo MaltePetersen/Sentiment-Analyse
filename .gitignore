@@ -3,5 +3,6 @@
 *.tar.gz
 embeddings
 .vscode
+.idea
 __pycache__
 *.h5
