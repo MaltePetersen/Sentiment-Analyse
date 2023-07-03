@@ -1,11 +1,7 @@
 import io
 import numpy as np
 
-"""
-This function writes the word embeddings to a file. Can be used by https://projector.tensorflow.org/
-"""
-
-
+# This function writes the word embeddings to a file. Can be used by https://projector.tensorflow.org/
 def write_embeddings(vocab_size, reverse_word_index, embedding_weights, vecs_filename='vecs.tsv', meta_filename='meta.tsv'):
     out_v = io.open(vecs_filename, 'w', encoding='utf-8')
     out_m = io.open(meta_filename, 'w', encoding='utf-8')
