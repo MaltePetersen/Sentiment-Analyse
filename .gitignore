@@ -4,3 +4,4 @@
 embeddings
 .vscode
 __pycache__
+*.h5
