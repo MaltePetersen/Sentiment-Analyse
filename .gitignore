@@ -1,4 +1,8 @@
-McDonald_s_Reviews.csv
-mcdonalds-store-reviews.zip
-IMDB Dataset.csv
-imdb-dataset-of-50k-movie-reviews.zip
+*.csv
+*.zip
+*.tar.gz
+embeddings
+.vscode
+.idea
+__pycache__
+*.h5
