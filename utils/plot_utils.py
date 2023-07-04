@@ -13,7 +13,7 @@ def plot_history_metrics(history, metrics):
         plt.show()
 
 
-def get_classification_report(model, X_test, y_test):
+def get_classification_report(model, X_test, y_test, y_pred_bound=0.85):     
     y_pred = model.predict(X_test)
     fpr, tpr, _ = roc_curve(y_test,  y_pred)
     auc = roc_auc_score(y_test, y_pred)
@@ -22,8 +22,8 @@ def get_classification_report(model, X_test, y_test):
     plt.legend(loc=4)
     plt.show()
 
-    y_pred[y_pred >= 0.85] = 1
-    y_pred[y_pred < 0.85] = 0
+    y_pred[y_pred >= y_pred_bound] = 1
+    y_pred[y_pred < y_pred_bound] = 0
     print(classification_report(y_test, y_pred))
 
     plt.figure(figsize=(10, 8))
