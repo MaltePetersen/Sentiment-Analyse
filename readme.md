@@ -18,11 +18,11 @@ Das Repository durchläuft fünf Schritte, um von einem spezifischen Sentiment-A
 |-------------------------------------------------------|----------|---------|
 | Bigram McDonalds Reviews                              | 43.97%   | 5       |
 | Bigram McDonalds und IMDB Reviews                     | 90.28%   | 2       |
-| LSTM McDonalds und IMDB Reviews                       | 88.64%   | 2       |
-| LSTM McDonalds und IMDB Reviews GloVe                 | 87.53%   | 2       |
-| Transformer nur Attention                             | 88.77%   | 2       |
-| Transformer Attention und PostionalEnmbedding         | 84.70%   | 2       |
-| Transformer Attention und simples PostionalEnmbedding | 89.72%   | 2       |
+| LSTM McDonalds und IMDB Reviews                       | 89.87%   | 2       |
+| LSTM McDonalds und IMDB Reviews GloVe                 | 89.15%   | 2       |
+| Transformer nur Attention                             | 89.32%   | 2       |
+| Transformer Attention und PostionalEnmbedding         | 85.99%   | 2       |
+| Transformer Attention und simples PostionalEnmbedding | 89.86%   | 2       |
 
 
 # Referenzen: 
