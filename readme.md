@@ -25,9 +25,9 @@ Das Repository durchläuft fünf Schritte, um von einem spezifischen Sentiment-A
 | Transformer Attention und simples PostionalEnmbedding | 89.72%   | 2       |
 
 
-Referenzen: 
+# Referenzen: 
+
 [Visual Guide to Transformer Neural Networks - (Episode 1) Position Embeddings](https://www.youtube.com/watch?v=dichIcUZfOw)
-[Link text Here](https://link-url-here.org)
 Deep Learning with Python 2nd edition - François Chollet
 Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow - Aurélien Géron
 [The Transformer Positional Encoding Layer in Keras, Part 2](https://machinelearningmastery.com/the-transformer-positional-encoding-layer-in-keras-part-2/)
