@@ -16,8 +16,8 @@ Das Repository durchläuft fünf Schritte, um von einem spezifischen Sentiment-A
 
 | Analyse                                               | Accuracy | Klassen |
 |-------------------------------------------------------|----------|---------|
-| Bigram McDonalds Reviews                              | 45.06%   | 5       |
-| Bigram McDonalds und IMDB Reviews                     | 89.19%   | 2       |
+| Bigram McDonalds Reviews                              | 43.97%   | 5       |
+| Bigram McDonalds und IMDB Reviews                     | 90.28%   | 2       |
 | LSTM McDonalds und IMDB Reviews                       | 88.64%   | 2       |
 | LSTM McDonalds und IMDB Reviews GloVe                 | 87.53%   | 2       |
 | Transformer nur Attention                             | 88.77%   | 2       |
