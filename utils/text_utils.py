@@ -1,7 +1,8 @@
 import re
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+from nltk.corpus import stopwords
+stopwords = set(stopwords.words('english'))
 
 def clean_text(text):
     # Convert to lowercase
@@ -11,5 +12,5 @@ def clean_text(text):
     # Remove HTML Tags
     test = re.sub(r'<.*?>', '', test)
     # Remove stopwords
-    test = ' '.join([word for word in word_tokenize(test) if word not in stopwords.words('english')])
+    test = ' '.join([word for word in word_tokenize(test) if word not in stopwords])
     return test
