@@ -8,5 +8,6 @@ __pycache__
 *.h5
 *.tsv
 logs
+.DS_Store
 *.txt
 *.sqlite
