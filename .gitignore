@@ -9,3 +9,5 @@ __pycache__
 *.tsv
 logs
 .DS_Store
+*.txt
+*.sqlite
