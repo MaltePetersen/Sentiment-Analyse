@@ -22,7 +22,7 @@ Das Repository durchläuft fünf Schritte, um von einem spezifischen Sentiment-A
 | LSTM McDonalds und IMDB Reviews GloVe                 | 87.53%   | 2       |
 | Transformer nur Attention                             | 88.77%   | 2       |
 | Transformer Attention und PostionalEnmbedding         | 84.70%   | 2       |
-| Transformer Attention und simples PostionalEnmbedding | 89.72    | 2       |
+| Transformer Attention und simples PostionalEnmbedding | 89.72%   | 2       |
 
 
 Referenzen: 
