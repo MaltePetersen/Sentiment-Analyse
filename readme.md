@@ -26,10 +26,7 @@ Das Repository durchläuft fünf Schritte, um von einem spezifischen Sentiment-A
 
 
 # Referenzen: 
-Deep Learning with Python 2nd edition - François Chollet
-
-Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow - Aurélien Géron
-
-[Visual Guide to Transformer Neural Networks - (Episode 1) Position Embeddings](https://www.youtube.com/watch?v=dichIcUZfOw)
-
-[The Transformer Positional Encoding Layer in Keras, Part 2](https://machinelearningmastery.com/the-transformer-positional-encoding-layer-in-keras-part-2/)
+- Deep Learning with Python 2nd edition - François Chollet
+- Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow - Aurélien Géron
+- [Visual Guide to Transformer Neural Networks - (Episode 1) Position Embeddings](https://www.youtube.com/watch?v=dichIcUZfOw)
+- [The Transformer Positional Encoding Layer in Keras, Part 2](https://machinelearningmastery.com/the-transformer-positional-encoding-layer-in-keras-part-2/)
