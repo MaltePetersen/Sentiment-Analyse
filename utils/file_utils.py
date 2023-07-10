@@ -3,6 +3,17 @@ import numpy as np
 
 # This function writes the word embeddings to a file. Can be used by https://projector.tensorflow.org/
 def write_embeddings(vocab_size, reverse_word_index, embedding_weights, vecs_filename='vecs.tsv', meta_filename='meta.tsv'):
+    """
+    Write the word embeddings to a file. Files can be used by https://projector.tensorflow.org/
+
+    Args:
+        vocab_size: int, the size of the vocabulary.
+        reverse_word_index: dict, a dictionary mapping words to their integer indices.
+        embedding_weights: numpy array, the weights of the embedding layer.
+        vecs_filename: str, the name of the file to write the word embeddings to.   
+        meta_filename: str, the name of the file to write the word names to.   
+    """
+
     out_v = io.open(vecs_filename, 'w', encoding='utf-8')
     out_m = io.open(meta_filename, 'w', encoding='utf-8')
 
@@ -27,8 +38,16 @@ def write_embeddings(vocab_size, reverse_word_index, embedding_weights, vecs_fil
 
 
 def read_embeddings(filepath):
+    """
+    Read the word embeddings from a file.
+
+    Args:
+        filepath: str, the path to the file containing the word embeddings. 
+
+    Returns:
+        embeddings: dict, a dictionary mapping words to their word embeddings.
+    """
     embeddings = {}
-    # Read word vectors
     with open(filepath) as f:
         for line in f:
             values = line.split()
